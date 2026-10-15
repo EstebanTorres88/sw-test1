@@ -8,9 +8,9 @@ El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/eq
 
 | N.º | Comportamiento observado | Causa técnica y ubicación | Corrección realizada | Prueba de verificación | Autor |
 |---|---|---|---|---|---|
-| 1 | | | | | |
+| 1 | Cartas utilizan una distribución en lista | styles.css:125: flex-direction: column. | Eliminación de línea 125 | <img src="./images/incidente_a.png alt="correcion de incidente A" /> | Dilan Rojas |
 | 2 | | | | | |
-| 3 | | | | | |
+| 3 | |  | | | |
 | 4 | | | | | |
 | 5 | | | | | |
 
