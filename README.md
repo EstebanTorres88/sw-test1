@@ -8,11 +8,11 @@ El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/eq
 
 | N.º | Comportamiento observado | Causa técnica y ubicación | Corrección realizada | Prueba de verificación | Autor |
 |---|---|---|---|---|---|
-| 1 | | | | | |
+| 1 | Cartas utilizan una distribución en lista | styles.css:125: flex-direction: column. | Eliminación de línea 125 | <img src="./images/incidente_a.png" alt="correcion de incidente A" /> | Dilan Rojas |
 | 2 |Se redirige a una pagina incorrecta y no se cuenta con nav | index.html/linea 15, se usa href="./pages/eventos.html"| Corregir ruta a la pagina correcta en pages/menu.html|<img src ="./images/incidenteII.png"/>|Esteban Torres Jimenez|
 | 3 |El boton no redirige a ninguna pagina |index.html/linea30 se usa href="#" |Especificar ruta a pages/menu.html|<img src = "./images/incidenteIII.png"/> | Esteban Torres Jimenez|
-| 4 | | | | | |
-| 5 | | | | | |
+| 4 | Botón del hero tiene un fondo rojo | styles.css:244: background: #bd4d58; | styles.css:244:background: var(--gold); | <img src="./images/incidente_d.png" alt="correcion de incidente D" /> | Dilan Rojas |
+| 5 | Enlaces del header se colapsan en > 375px | styles.css:41: no existe flex-wrap: wrap. | styles.css:45: flex-wrap: wrap. | <img src="./images/incidente_e.png" alt="correcion de incidente E" /> | Dilan Rojas |
 
 ## Responsables de las funcionalidades
 
