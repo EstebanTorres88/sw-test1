@@ -8,10 +8,10 @@ El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/eq
 
 | N.º | Comportamiento observado | Causa técnica y ubicación | Corrección realizada | Prueba de verificación | Autor |
 |---|---|---|---|---|---|
-| 1 | Cartas utilizan una distribución en lista | styles.css:125: flex-direction: column. | Eliminación de línea 125 | <img src="./images/incidente_a.png alt="correcion de incidente A" /> | Dilan Rojas |
+| 1 | Cartas utilizan una distribución en lista | styles.css:125: flex-direction: column. | Eliminación de línea 125 | <img src="./images/incidente_a.png" alt="correcion de incidente A" /> | Dilan Rojas |
 | 2 | | | | | |
 | 3 | |  | | | |
-| 4 | | | | | |
+| 4 | Botón del hero tiene un fondo rojo | styles.css:244: background: #bd4d58; | styles.css:244:background: var(--gold); | <img src="./images/incidente_d.png" alt="correcion de incidente A" /> | Dilan Rojas |
 | 5 | | | | | |
 
 ## Responsables de las funcionalidades
